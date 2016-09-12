@@ -1,0 +1,63 @@
+---
+title: "Package Overview"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Package Overview}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+library(nlstimedist)
+knitr::opts_chunk$set(collapse = TRUE,
+                      comment = "#>")
+```
+  
+# Fitting the time-course of the leafing phenology of lime trees
+
+## Preparing the data
+Data should be in tidy format. `nlstimedist` provides three example tidy datasets: `lobelia`, `pupae` and `tilia`.
+
+```{r}
+head(tilia)
+```
+
+We first need to calculate the cumulative number of trees as well as the proportions. We do this using the `tdData` function.
+
+```{r}
+tdTilia <- tdData(tilia, x = "Day", y = "Trees")
+tdTilia
+```
+
+## Fitting the model
+We fit the model to the proportion of the cumulative number of trees (`propMax`) in the `tdTilia` data using the `timedist` function.
+
+```{r}
+model <- timedist(data = tdTilia, x = "Day", y = "propMax", r = 0.1, c = 0.5, t = 120)
+model
+```
+
+## Extracting the moments
+We can extract the mean, variance, standard deviation, skew, kurtosis and entropy of the model as follows.
+
+```{r}
+model$m$getMoments()
+```
+
+## Extracting the RSS
+Similarly we can extract the RSS of the model
+
+```{r}
+model$m$rss()
+```
+
+## Plotting the PDF and CDF
+The pdf and cdf of the model have their own plotting functions.
+
+```{r}
+tdPdfPlot(model)
+```
+
+```{r}
+tdCdfPlot(model)
+```
