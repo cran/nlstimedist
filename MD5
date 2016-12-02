@@ -1,4 +1,4 @@
-e73324b56c0832f3b4a1538e0aa2f9d8 *DESCRIPTION
+67f7a5fd640968c3e60db78dbf11254d *DESCRIPTION
 d057cea7950e9118a03354086111098c *NAMESPACE
 9acccf5a9a20d4a8853fcce4955111d0 *R/data-examples.R
 4413ebd86ba2541ced4d267b91597cc9 *R/glance.timedist.R
@@ -6,12 +6,12 @@ d057cea7950e9118a03354086111098c *NAMESPACE
 7b4f86def734edb2649ad24b285bfc89 *R/nlstimedist.R
 30775724448fa903ce32629c0f01cbf4 *R/pdf.R
 21ec9414451f293417d821b7159459d0 *R/percentiles.R
-10df9822ad90f9a8b5a1bc79c940398e *R/plots.R
+c7e586d5bb5567a9c27ee199731bd95c *R/plots.R
 4246437290d31a92e2874bc56c5cc9d1 *R/rss.R
 149274c969db8bc57cf9f0de81396d0b *R/timedist.R
 0d3353ec1cd0b0d196ea9732b8783e5d *R/utils.R
-2268e90e506377e35cf05a5ae0d26fe0 *README.md
-cbe530ceb08f9745df91d3885e4707eb *build/vignette.rds
+d9ea507b2d58c979c5eccec2f81c3f99 *README.md
+c471939c21c3f3a1539d19a8b869ee8c *build/vignette.rds
 014dab7b506e460f0832b8588cd8dd4f *data/lobelia.rda
 cf3f51de553871aaa71d22839664ef5f *data/pupae.rda
 c84ba9ad34fd7e5fc7f1c0a9a7fbc090 *data/tilia.rda
