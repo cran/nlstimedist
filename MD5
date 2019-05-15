@@ -1,6 +1,6 @@
-0b127b1c9a5446f8322ff84bd5ebc463 *DESCRIPTION
+8fad59caa44860a2348b807693773dc3 *DESCRIPTION
 d057cea7950e9118a03354086111098c *NAMESPACE
-b48daff28d4f7ee33126ff6fb041c55b *NEWS.md
+7502fca28f3414743bdac83215c63dc7 *NEWS.md
 9acccf5a9a20d4a8853fcce4955111d0 *R/data-examples.R
 4413ebd86ba2541ced4d267b91597cc9 *R/glance.timedist.R
 4bf0000e9d8038d2856416a65f2e3f73 *R/moments.R
@@ -18,7 +18,7 @@ cf3f51de553871aaa71d22839664ef5f *data/pupae.rda
 c84ba9ad34fd7e5fc7f1c0a9a7fbc090 *data/tilia.rda
 58a54b064c83fcc5f40b7aa37ea670e3 *inst/doc/nlstimedist.R
 4549d4faeb272421319b7473d8228885 *inst/doc/nlstimedist.Rmd
-07c29fba9b75ff09a037eb5f818657a4 *inst/doc/nlstimedist.html
+9f43d8b7331030e237af9e98b3bc59d4 *inst/doc/nlstimedist.html
 643182c8437ad878f98afaf748f64e85 *man/augmentMultiple.Rd
 99773d7ae87711b834f75356ad3956e0 *man/glance.timedist.Rd
 6494bb6f76712cce9d9133befe2d8cc2 *man/lobelia.Rd
