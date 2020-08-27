@@ -4,18 +4,19 @@
 \name{pupae}
 \alias{pupae}
 \title{Emergence of butterflies data}
-\format{A data frame with 64 rows and 3 variables:
+\format{
+A data frame with 64 rows and 3 variables:
 \describe{
-  \item{Day}{The day number}
-  \item{Cohort}{The cohort number}
-  \item{Emergence}{The number of butterflies to emerge}
-}}
+\item{Day}{The day number}
+\item{Cohort}{The cohort number}
+\item{Emergence}{The number of butterflies to emerge}
+}
+}
 \usage{
 pupae
 }
 \description{
-This data describes the emergence of butterflies from their pupae from four
-different cohorts.
+This data describes the emergence of butterflies from their pupae from four different cohorts.
 }
 \examples{
 pupae
